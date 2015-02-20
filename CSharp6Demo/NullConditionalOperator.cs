@@ -18,5 +18,10 @@ namespace CSharp6Demo
         {
             return value?.Substring(0, Math.Min(value.Length, length));
         }
+
+        public static int Tester(int val)
+        {
+            return val;
+        }
     }
 }
